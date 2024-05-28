@@ -5,7 +5,7 @@ Sound-based fault classifier for drones using multi-task learning
 
 This project aims to classify drone faults, their movement direction, and the drone model using sound data. The classifications include:
 
-- Fault Status: N (Normal), MF1~4 (Motor Failure), PC1~4 (Propeller Cut) 
+- Fault Status: N (Normal), MF`1~4` (Motor Failure), PC`1~4` (Propeller Cut) 
   - `1~4` indicates each motor/propeller of the quadcopter.
 - Movement Direction: F (Front), B (Back), R (Right), L (Left), C (Clockwise), CC (Counter-clockwise).
 - Drone Model: A, B, C.
