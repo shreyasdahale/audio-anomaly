@@ -5,12 +5,12 @@ Sound-based fault classifier for drones using multi-task learning
 
 This project aims to classify drone faults, their movement direction, and the drone model using sound data. The classifications include:
 
-- Fault Status: N (Normal), MF`1~4` (Motor Failure), PC`1~4` (Propeller Cut) 
+- Fault Status: N (Normal), MF `1~4` (Motor Failure), PC `1~4` (Propeller Cut) 
   - `1~4` indicates each motor/propeller of the quadcopter.
 - Movement Direction: F (Front), B (Back), R (Right), L (Left), C (Clockwise), CC (Counter-clockwise).
 - Drone Model: A, B, C.
 
-The project leverages libraries such as librosa, numpy, pytorch, and pandas. The dataset used can be found [here](https://zenodo.org/records/7779574#.ZCOvfXZBwQ8).
+The project leverages libraries such as librosa, numpy, pytorch, and pandas, sci-kit learn. The dataset used can be found [here](https://zenodo.org/records/7779574#.ZCOvfXZBwQ8).
 
 ## Audio Data Extraction
 
@@ -46,15 +46,3 @@ After 50 epochs of training, the model achieved 96.7% accuracy on the testing da
 
 1. Open the `integrated.ipynb` Jupyter notebook.
 2. Run the notebook cells sequentially to process the data, train the models, and evaluate their performance.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements or find any issues, please create an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
-This README provides a comprehensive guide to understanding, setting up, and running the project. If you have any questions or need further assistance, feel free to reach out.
